@@ -1,3 +1,3 @@
 #!/bin/sh
-DOCKERHOST=docker.phn1.net
+DOCKERHOST=localhost:8500
 docker build -t $DOCKERHOST/sspws:latest .
